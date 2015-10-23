@@ -694,6 +694,9 @@
                                         <string>NSAllRomanInputSourcesLocaleIdentifier</string>
                                     </allowedInputSourceLocales>
                                 </secureTextFieldCell>
+                                <connections>
+                                    <action selector="passwordInputEdit:" target="XfG-lQ-9wD" id="sL9-hU-KpU"/>
+                                </connections>
                             </secureTextField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8aW-Zm-pCu">
                                 <rect key="frame" x="192" y="156" width="96" height="22"/>
@@ -702,6 +705,9 @@
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <action selector="serviceInputEdit:" target="XfG-lQ-9wD" id="qFD-cH-4oh"/>
+                                </connections>
                             </textField>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qoX-wn-p8Y">
                                 <rect key="frame" x="216" y="202" width="48" height="48"/>
@@ -709,6 +715,11 @@
                             </imageView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="passwordInput" destination="DoB-GM-vxE" id="9jx-O8-5Yf"/>
+                        <outlet property="pwOutput" destination="bxi-eR-wJ4" id="h0c-jg-8wj"/>
+                        <outlet property="serviceInput" destination="8aW-Zm-pCu" id="0e9-hy-MPn"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
