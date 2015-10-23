@@ -51,17 +51,14 @@ class ViewController: NSViewController {
         var pass: String = passwordInput.stringValue
         var srvLower = srv.lowercaseString
         var pw = "\(srvLower)" + "||" + "\(pass)" + "||"
-        print(pw)
         var pwHash = pw.sha1()
-        print(pwHash)
         var pwString = String(pwHash)
         var pwLowered = pwString.lowercaseString
         var index = 0
 
-        
         func updateTwo() {
             for string in pwLowered.characters {
-                var s = "\(string)"
+                let s = "\(string)"
                 if index%2 == 0 {
                     pwNew += s.uppercaseString
                 } else {
@@ -80,30 +77,7 @@ class ViewController: NSViewController {
             pwNew = ""
         }
         updateThree()
-        
-//        func updateTwo() {
-//            for (index, char) in enumerate(pwLowered) {
-//                var s = "\(char)"
-//                if index%2 == 0 {
-//                    pwNew += s.uppercaseString
-//                } else {
-//                    pwNew += s
-//                }
-//            }
-//            pwOutput.stringValue = pwNew
-//            let pasteboard = NSPasteboard.generalPasteboard()
-//            pasteboard.clearContents()
-//            pasteboard.setString(pwOutput.stringValue, forType: NSPasteboardTypeString)
-//        }
-//        updateTwo()
-//        
-//        func updateThree() {
-//            pwNew = ""
-//        }
-//        updateThree()
     }
-    
     // end
-
 }
 
