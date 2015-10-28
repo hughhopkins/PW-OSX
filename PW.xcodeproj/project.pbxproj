@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0036C7621BE181A3001341B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036C7611BE181A3001341B3 /* AppDelegate.swift */; };
+		0036C7641BE181A3001341B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036C7631BE181A3001341B3 /* ViewController.swift */; };
+		0036C7661BE181A3001341B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0036C7651BE181A3001341B3 /* Assets.xcassets */; };
+		0036C7691BE181A3001341B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0036C7671BE181A3001341B3 /* Main.storyboard */; };
+		0036C7741BE181A3001341B3 /* PWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036C7731BE181A3001341B3 /* PWTests.swift */; };
+		0036C77F1BE181A3001341B3 /* PWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036C77E1BE181A3001341B3 /* PWUITests.swift */; };
+		0036C79F1BE18303001341B3 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0036C7951BE18282001341B3 /* CryptoSwift.framework */; };
+		0036C7A01BE18303001341B3 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0036C7951BE18282001341B3 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0036C7701BE181A3001341B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0036C7561BE181A3001341B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0036C75D1BE181A3001341B3;
+			remoteInfo = PW;
+		};
+		0036C77B1BE181A3001341B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0036C7561BE181A3001341B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0036C75D1BE181A3001341B3;
+			remoteInfo = PW;
+		};
+		0036C7941BE18282001341B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE45519693E190098E6F3;
+			remoteInfo = "CryptoSwift iOS";
+		};
+		0036C7961BE18282001341B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5596BDBB1BC8F220007E38D5;
+			remoteInfo = "CryptoSwift watchOS";
+		};
+		0036C7981BE18282001341B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75D614BF1BD844F2001358B2;
+			remoteInfo = "CryptoSwift tvOS";
+		};
+		0036C79A1BE18282001341B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75DF77721BC8EB59006E9520;
+			remoteInfo = "CryptoSwift OSX";
+		};
+		0036C79C1BE18282001341B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE46019693E190098E6F3;
+			remoteInfo = CryptoSwiftTests;
+		};
+		0036C7A11BE18303001341B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 754BE45419693E190098E6F3;
+			remoteInfo = "CryptoSwift iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0036C7A31BE18303001341B3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0036C7A01BE18303001341B3 /* CryptoSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0036C75E1BE181A3001341B3 /* PW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0036C7611BE181A3001341B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0036C7631BE181A3001341B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0036C7651BE181A3001341B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0036C7681BE181A3001341B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0036C76A1BE181A3001341B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0036C76F1BE181A3001341B3 /* PWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0036C7731BE181A3001341B3 /* PWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWTests.swift; sourceTree = "<group>"; };
+		0036C7751BE181A3001341B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0036C77A1BE181A3001341B3 /* PWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0036C77E1BE181A3001341B3 /* PWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWUITests.swift; sourceTree = "<group>"; };
+		0036C7801BE181A3001341B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = CryptoSwift/CryptoSwift.xcodeproj; sourceTree = "<group>"; };
+		0036C79E1BE182C0001341B3 /* PW.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PW.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0036C75B1BE181A3001341B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0036C79F1BE18303001341B3 /* CryptoSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0036C76C1BE181A3001341B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0036C7771BE181A3001341B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0036C7551BE181A3001341B3 = {
+			isa = PBXGroup;
+			children = (
+				0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */,
+				0036C7601BE181A3001341B3 /* PW */,
+				0036C7721BE181A3001341B3 /* PWTests */,
+				0036C77D1BE181A3001341B3 /* PWUITests */,
+				0036C75F1BE181A3001341B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0036C75F1BE181A3001341B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0036C75E1BE181A3001341B3 /* PW.app */,
+				0036C76F1BE181A3001341B3 /* PWTests.xctest */,
+				0036C77A1BE181A3001341B3 /* PWUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0036C7601BE181A3001341B3 /* PW */ = {
+			isa = PBXGroup;
+			children = (
+				0036C79E1BE182C0001341B3 /* PW.entitlements */,
+				0036C7611BE181A3001341B3 /* AppDelegate.swift */,
+				0036C7631BE181A3001341B3 /* ViewController.swift */,
+				0036C7651BE181A3001341B3 /* Assets.xcassets */,
+				0036C7671BE181A3001341B3 /* Main.storyboard */,
+				0036C76A1BE181A3001341B3 /* Info.plist */,
+			);
+			path = PW;
+			sourceTree = "<group>";
+		};
+		0036C7721BE181A3001341B3 /* PWTests */ = {
+			isa = PBXGroup;
+			children = (
+				0036C7731BE181A3001341B3 /* PWTests.swift */,
+				0036C7751BE181A3001341B3 /* Info.plist */,
+			);
+			path = PWTests;
+			sourceTree = "<group>";
+		};
+		0036C77D1BE181A3001341B3 /* PWUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0036C77E1BE181A3001341B3 /* PWUITests.swift */,
+				0036C7801BE181A3001341B3 /* Info.plist */,
+			);
+			path = PWUITests;
+			sourceTree = "<group>";
+		};
+		0036C78D1BE18281001341B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0036C7951BE18282001341B3 /* CryptoSwift.framework */,
+				0036C7971BE18282001341B3 /* CryptoSwift.framework */,
+				0036C7991BE18282001341B3 /* CryptoSwift.framework */,
+				0036C79B1BE18282001341B3 /* CryptoSwift.framework */,
+				0036C79D1BE18282001341B3 /* CryptoSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0036C75D1BE181A3001341B3 /* PW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0036C7831BE181A3001341B3 /* Build configuration list for PBXNativeTarget "PW" */;
+			buildPhases = (
+				0036C75A1BE181A3001341B3 /* Sources */,
+				0036C75B1BE181A3001341B3 /* Frameworks */,
+				0036C75C1BE181A3001341B3 /* Resources */,
+				0036C7A31BE18303001341B3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0036C7A21BE18303001341B3 /* PBXTargetDependency */,
+			);
+			name = PW;
+			productName = PW;
+			productReference = 0036C75E1BE181A3001341B3 /* PW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0036C76E1BE181A3001341B3 /* PWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0036C7861BE181A3001341B3 /* Build configuration list for PBXNativeTarget "PWTests" */;
+			buildPhases = (
+				0036C76B1BE181A3001341B3 /* Sources */,
+				0036C76C1BE181A3001341B3 /* Frameworks */,
+				0036C76D1BE181A3001341B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0036C7711BE181A3001341B3 /* PBXTargetDependency */,
+			);
+			name = PWTests;
+			productName = PWTests;
+			productReference = 0036C76F1BE181A3001341B3 /* PWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0036C7791BE181A3001341B3 /* PWUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0036C7891BE181A3001341B3 /* Build configuration list for PBXNativeTarget "PWUITests" */;
+			buildPhases = (
+				0036C7761BE181A3001341B3 /* Sources */,
+				0036C7771BE181A3001341B3 /* Frameworks */,
+				0036C7781BE181A3001341B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0036C77C1BE181A3001341B3 /* PBXTargetDependency */,
+			);
+			name = PWUITests;
+			productName = PWUITests;
+			productReference = 0036C77A1BE181A3001341B3 /* PWUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0036C7561BE181A3001341B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = io.pwapp;
+				TargetAttributes = {
+					0036C75D1BE181A3001341B3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = LZF4KQM3HY;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					0036C76E1BE181A3001341B3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 0036C75D1BE181A3001341B3;
+					};
+					0036C7791BE181A3001341B3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 0036C75D1BE181A3001341B3;
+					};
+				};
+			};
+			buildConfigurationList = 0036C7591BE181A3001341B3 /* Build configuration list for PBXProject "PW" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0036C7551BE181A3001341B3;
+			productRefGroup = 0036C75F1BE181A3001341B3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0036C78D1BE18281001341B3 /* Products */;
+					ProjectRef = 0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				0036C75D1BE181A3001341B3 /* PW */,
+				0036C76E1BE181A3001341B3 /* PWTests */,
+				0036C7791BE181A3001341B3 /* PWUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0036C7951BE18282001341B3 /* CryptoSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CryptoSwift.framework;
+			remoteRef = 0036C7941BE18282001341B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0036C7971BE18282001341B3 /* CryptoSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CryptoSwift.framework;
+			remoteRef = 0036C7961BE18282001341B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0036C7991BE18282001341B3 /* CryptoSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CryptoSwift.framework;
+			remoteRef = 0036C7981BE18282001341B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0036C79B1BE18282001341B3 /* CryptoSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CryptoSwift.framework;
+			remoteRef = 0036C79A1BE18282001341B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0036C79D1BE18282001341B3 /* CryptoSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CryptoSwiftTests.xctest;
+			remoteRef = 0036C79C1BE18282001341B3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0036C75C1BE181A3001341B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0036C7661BE181A3001341B3 /* Assets.xcassets in Resources */,
+				0036C7691BE181A3001341B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0036C76D1BE181A3001341B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0036C7781BE181A3001341B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0036C75A1BE181A3001341B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0036C7641BE181A3001341B3 /* ViewController.swift in Sources */,
+				0036C7621BE181A3001341B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0036C76B1BE181A3001341B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0036C7741BE181A3001341B3 /* PWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0036C7761BE181A3001341B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0036C77F1BE181A3001341B3 /* PWUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0036C7711BE181A3001341B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0036C75D1BE181A3001341B3 /* PW */;
+			targetProxy = 0036C7701BE181A3001341B3 /* PBXContainerItemProxy */;
+		};
+		0036C77C1BE181A3001341B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0036C75D1BE181A3001341B3 /* PW */;
+			targetProxy = 0036C77B1BE181A3001341B3 /* PBXContainerItemProxy */;
+		};
+		0036C7A21BE18303001341B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CryptoSwift iOS";
+			targetProxy = 0036C7A11BE18303001341B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0036C7671BE181A3001341B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0036C7681BE181A3001341B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0036C7811BE181A3001341B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0036C7821BE181A3001341B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0036C7841BE181A3001341B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PW/PW.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = PW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.pwapp.pwdesktop.PW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0036C7851BE181A3001341B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PW/PW.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = PW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.pwapp.pwdesktop.PW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0036C7871BE181A3001341B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.pwapp.PWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PW.app/Contents/MacOS/PW";
+			};
+			name = Debug;
+		};
+		0036C7881BE181A3001341B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.pwapp.PWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PW.app/Contents/MacOS/PW";
+			};
+			name = Release;
+		};
+		0036C78A1BE181A3001341B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.pwapp.PWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PW;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0036C78B1BE181A3001341B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PWUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.pwapp.PWUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PW;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0036C7591BE181A3001341B3 /* Build configuration list for PBXProject "PW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0036C7811BE181A3001341B3 /* Debug */,
+				0036C7821BE181A3001341B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0036C7831BE181A3001341B3 /* Build configuration list for PBXNativeTarget "PW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0036C7841BE181A3001341B3 /* Debug */,
+				0036C7851BE181A3001341B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0036C7861BE181A3001341B3 /* Build configuration list for PBXNativeTarget "PWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0036C7871BE181A3001341B3 /* Debug */,
+				0036C7881BE181A3001341B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0036C7891BE181A3001341B3 /* Build configuration list for PBXNativeTarget "PWUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0036C78A1BE181A3001341B3 /* Debug */,
+				0036C78B1BE181A3001341B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0036C7561BE181A3001341B3 /* Project object */;
+}
