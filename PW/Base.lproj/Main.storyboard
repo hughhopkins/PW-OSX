@@ -21,6 +21,8 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+<<<<<<< HEAD
+=======
                                         <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
                                         <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
                                         <menuItem title="Services" id="NMo-om-nkz">
@@ -28,6 +30,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
+>>>>>>> master
                                         <menuItem title="Hide PW" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
@@ -77,15 +80,26 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
+<<<<<<< HEAD
+                                        <menuItem title="PW Site - www.pwapp.io" id="mgL-2M-7ZO">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="menubarPwSite:" target="Voe-Tx-rLC" id="GOW-1h-VfW"/>
+=======
                                         <menuItem title="PW Site - www.pwapp.io" id="YFH-Im-v3D">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="menubarPwSite:" target="Voe-Tx-rLC" id="NkB-9f-a9E"/>
+>>>>>>> master
                                             </connections>
                                         </menuItem>
                                         <menuItem title="PW Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
+<<<<<<< HEAD
+                                                <action selector="menubarPwHelp:" target="Voe-Tx-rLC" id="dYk-8k-BSO"/>
+=======
                                                 <action selector="menubarPwHelp:" target="Voe-Tx-rLC" id="Kuf-Bq-Kh7"/>
+>>>>>>> master
                                             </connections>
                                         </menuItem>
                                     </items>
@@ -128,6 +142,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
+<<<<<<< HEAD
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Fm-RU-0fK">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="PWOSXBackground" id="cGw-he-sZX"/>
+                            </imageView>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bxi-eR-wJ4">
+                                <rect key="frame" x="18" y="37" width="444" height="36"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title=" " id="vDH-DE-601">
+=======
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EUS-HG-jM6">
                                 <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="PWOSXBackground" id="r6Q-SP-yca"/>
@@ -135,19 +158,38 @@
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tTk-WZ-Sqz">
                                 <rect key="frame" x="18" y="41" width="444" height="30"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Label" id="9J5-wQ-WiW">
+>>>>>>> master
                                     <font key="font" size="18" name=".HelveticaNeueDeskInterface-Regular"/>
                                     <color key="textColor" red="0.99215692281723022" green="0.9960784912109375" blue="0.9960784912109375" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+<<<<<<< HEAD
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8aW-Zm-pCu">
+                                <rect key="frame" x="20" y="151" width="440" height="22"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="Service" bezelStyle="round" id="0bx-rt-ca3">
+=======
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Xi-M0-vcR">
                                 <rect key="frame" x="20" y="151" width="440" height="22"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="Service" bezelStyle="round" id="PIi-6g-KX6">
+>>>>>>> master
                                     <font key="font" size="15" name=".HelveticaNeueDeskInterface-Regular"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                                 <connections>
+<<<<<<< HEAD
+                                    <action selector="serviceInputEdit:" target="XfG-lQ-9wD" id="qFD-cH-4oh"/>
+                                </connections>
+                            </textField>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qoX-wn-p8Y">
+                                <rect key="frame" x="216" y="202" width="48" height="48"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="pw-white" id="aSB-FD-wNB"/>
+                            </imageView>
+                            <secureTextField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DoB-GM-vxE">
+                                <rect key="frame" x="20" y="104" width="440" height="22"/>
+                                <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Password" usesSingleLineMode="YES" bezelStyle="round" id="Hqr-Z2-PJS">
+=======
                                     <action selector="serviceInputEdit:" target="XfG-lQ-9wD" id="8Y8-ed-rHM"/>
                                 </connections>
                             </textField>
@@ -158,6 +200,7 @@
                             <secureTextField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gu7-eb-wJv">
                                 <rect key="frame" x="20" y="100" width="440" height="22"/>
                                 <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Password" usesSingleLineMode="YES" bezelStyle="round" id="5p2-0p-zuC">
+>>>>>>> master
                                     <font key="font" size="15" name=".HelveticaNeueDeskInterface-Regular"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -166,15 +209,25 @@
                                     </allowedInputSourceLocales>
                                 </secureTextFieldCell>
                                 <connections>
+<<<<<<< HEAD
+                                    <action selector="passwordInputEdit:" target="XfG-lQ-9wD" id="sL9-hU-KpU"/>
+=======
                                     <action selector="passwordInputEdit:" target="XfG-lQ-9wD" id="oAd-Bn-vQN"/>
+>>>>>>> master
                                 </connections>
                             </secureTextField>
                         </subviews>
                     </view>
                     <connections>
+<<<<<<< HEAD
+                        <outlet property="passwordInput" destination="DoB-GM-vxE" id="9jx-O8-5Yf"/>
+                        <outlet property="pwOutput" destination="bxi-eR-wJ4" id="h0c-jg-8wj"/>
+                        <outlet property="serviceInput" destination="8aW-Zm-pCu" id="0e9-hy-MPn"/>
+=======
                         <outlet property="passwordInput" destination="Gu7-eb-wJv" id="HqK-rh-zdt"/>
                         <outlet property="pwOutput" destination="tTk-WZ-Sqz" id="9Et-kT-l0h"/>
                         <outlet property="serviceInput" destination="2Xi-M0-vcR" id="T6Q-aD-iXu"/>
+>>>>>>> master
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
