@@ -2,7 +2,11 @@
 //  AppDelegate.swift
 //  PW
 //
+<<<<<<< HEAD
 //  Created by Hugh Hopkins on 23/10/2015.
+=======
+//  Created by Hugh Hopkins on 28/10/2015.
+>>>>>>> master
 //  Copyright © 2015 io.pwapp. All rights reserved.
 //
 
@@ -20,6 +24,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(aNotification: NSNotification) {
         // Insert code here to tear down your application
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
     @IBAction func menubarPwSite(sender: AnyObject) {
         if let checkURL = NSURL(string: "http://pwapp.io/?utm_source=OSX&utm_medium=link&utm_content=menubar-site&utm_campaign=OSX") {
             if NSWorkspace.sharedWorkspace().openURL(checkURL) {

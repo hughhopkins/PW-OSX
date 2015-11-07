@@ -14,7 +14,11 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
                BlueprintIdentifier = "00BFDA6C1BDAC465002DEF0E"
+=======
+               BlueprintIdentifier = "0036C75D1BE181A3001341B3"
+>>>>>>> master
                BuildableName = "PW.app"
                BlueprintName = "PW"
                ReferencedContainer = "container:PW.xcodeproj">
@@ -32,7 +36,11 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
                BlueprintIdentifier = "00BFDA7D1BDAC466002DEF0E"
+=======
+               BlueprintIdentifier = "0036C76E1BE181A3001341B3"
+>>>>>>> master
                BuildableName = "PWTests.xctest"
                BlueprintName = "PWTests"
                ReferencedContainer = "container:PW.xcodeproj">
@@ -42,7 +50,11 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
+<<<<<<< HEAD
                BlueprintIdentifier = "00BFDA881BDAC466002DEF0E"
+=======
+               BlueprintIdentifier = "0036C7791BE181A3001341B3"
+>>>>>>> master
                BuildableName = "PWUITests.xctest"
                BlueprintName = "PWUITests"
                ReferencedContainer = "container:PW.xcodeproj">
@@ -52,7 +64,11 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "00BFDA6C1BDAC465002DEF0E"
+=======
+            BlueprintIdentifier = "0036C75D1BE181A3001341B3"
+>>>>>>> master
             BuildableName = "PW.app"
             BlueprintName = "PW"
             ReferencedContainer = "container:PW.xcodeproj">
@@ -75,7 +91,11 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "00BFDA6C1BDAC465002DEF0E"
+=======
+            BlueprintIdentifier = "0036C75D1BE181A3001341B3"
+>>>>>>> master
             BuildableName = "PW.app"
             BlueprintName = "PW"
             ReferencedContainer = "container:PW.xcodeproj">
@@ -94,7 +114,11 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+<<<<<<< HEAD
             BlueprintIdentifier = "00BFDA6C1BDAC465002DEF0E"
+=======
+            BlueprintIdentifier = "0036C75D1BE181A3001341B3"
+>>>>>>> master
             BuildableName = "PW.app"
             BlueprintName = "PW"
             ReferencedContainer = "container:PW.xcodeproj">
