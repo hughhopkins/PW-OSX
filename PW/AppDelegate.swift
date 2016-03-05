@@ -2,12 +2,8 @@
 //  AppDelegate.swift
 //  PW
 //
-<<<<<<< HEAD
-//  Created by Hugh Hopkins on 23/10/2015.
-=======
-//  Created by Hugh Hopkins on 28/10/2015.
->>>>>>> master
-//  Copyright © 2015 io.pwapp. All rights reserved.
+//  Created by hugh on 04/03/2016.
+//  Copyright © 2016 hugh. All rights reserved.
 //
 
 import Cocoa
@@ -24,12 +20,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(aNotification: NSNotification) {
         // Insert code here to tear down your application
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> master
-    @IBAction func menubarPwSite(sender: AnyObject) {
-        if let checkURL = NSURL(string: "http://pwapp.io/?utm_source=OSX&utm_medium=link&utm_content=menubar-site&utm_campaign=OSX") {
+    @IBAction func menubarPWHelp(sender: AnyObject) {
+        if let checkURL = NSURL(string: "http://pwapp.io/about.html?utm_source=OSX&utm_medium=link&utm_content=menubar-help&utm_campaign=OSX") {
             if NSWorkspace.sharedWorkspace().openURL(checkURL) {
                 print("url successfully opened")
             }
@@ -38,8 +31,26 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
     }
 
-    @IBAction func menubarPwHelp(sender: AnyObject) {
-        if let checkURL = NSURL(string: "http://pwapp.io/about.html?utm_source=OSX&utm_medium=link&utm_content=menubar-help&utm_campaign=OSX") {
+    @IBAction func menubarPWSite(sender: AnyObject) {
+        if let checkURL = NSURL(string: "http://pwapp.io/?utm_source=OSX&utm_medium=link&utm_content=menubar-site&utm_campaign=OSX") {
+            if NSWorkspace.sharedWorkspace().openURL(checkURL) {
+                print("url successfully opened")
+            }
+        } else {
+            print("invalid url")
+        }
+    }
+    @IBAction func menubarGitHub(sender: AnyObject) {
+        if let checkURL = NSURL(string: "https://github.com/hughhopkins/PW-OSX?utm_source=OSX&utm_medium=link&utm_content=menubar-site&utm_campaign=OSX") {
+            if NSWorkspace.sharedWorkspace().openURL(checkURL) {
+                print("url successfully opened")
+            }
+        } else {
+            print("invalid url")
+        }
+    }
+    @IBAction func menubarTwitter(sender: AnyObject) {
+        if let checkURL = NSURL(string: "https://twitter.com/pwappio?utm_source=OSX&utm_medium=link&utm_content=menubar-site&utm_campaign=OSX") {
             if NSWorkspace.sharedWorkspace().openURL(checkURL) {
                 print("url successfully opened")
             }
