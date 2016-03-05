@@ -7,185 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
-		00BFDA711BDAC466002DEF0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BFDA701BDAC466002DEF0E /* AppDelegate.swift */; };
-		00BFDA731BDAC466002DEF0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BFDA721BDAC466002DEF0E /* ViewController.swift */; };
-		00BFDA751BDAC466002DEF0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00BFDA741BDAC466002DEF0E /* Assets.xcassets */; };
-		00BFDA781BDAC466002DEF0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BFDA761BDAC466002DEF0E /* Main.storyboard */; };
-		00BFDA831BDAC466002DEF0E /* PWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BFDA821BDAC466002DEF0E /* PWTests.swift */; };
-		00BFDA8E1BDAC466002DEF0E /* PWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BFDA8D1BDAC466002DEF0E /* PWUITests.swift */; };
-		E0EA725F7F8EE8F11BC5245E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8D5279561887356609B016 /* Pods.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		1ED69FB01C8A336F0057B1E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED69FAF1C8A336F0057B1E1 /* AppDelegate.swift */; };
+		1ED69FB21C8A336F0057B1E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED69FB11C8A336F0057B1E1 /* ViewController.swift */; };
+		1ED69FB41C8A336F0057B1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED69FB31C8A336F0057B1E1 /* Assets.xcassets */; };
+		1ED69FB71C8A33700057B1E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED69FB51C8A33700057B1E1 /* Main.storyboard */; };
+		1ED69FC21C8A33700057B1E1 /* PWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED69FC11C8A33700057B1E1 /* PWTests.swift */; };
+		1ED69FCD1C8A33700057B1E1 /* PWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED69FCC1C8A33700057B1E1 /* PWUITests.swift */; };
+		7BC5D4921E96C52DD5BE0CDD /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F9474E827CFF5E9A89EB23 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00BFDA7F1BDAC466002DEF0E /* PBXContainerItemProxy */ = {
+		1ED69FBE1C8A33700057B1E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 00BFDA651BDAC465002DEF0E /* Project object */;
+			containerPortal = 1ED69FA41C8A336F0057B1E1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 00BFDA6C1BDAC465002DEF0E;
+			remoteGlobalIDString = 1ED69FAB1C8A336F0057B1E1;
 			remoteInfo = PW;
 		};
-		00BFDA8A1BDAC466002DEF0E /* PBXContainerItemProxy */ = {
+		1ED69FC91C8A33700057B1E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 00BFDA651BDAC465002DEF0E /* Project object */;
+			containerPortal = 1ED69FA41C8A336F0057B1E1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 00BFDA6C1BDAC465002DEF0E;
+			remoteGlobalIDString = 1ED69FAB1C8A336F0057B1E1;
 			remoteInfo = PW;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0043764E1BDEE9CC00ED2287 /* PW.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PW.entitlements; sourceTree = "<group>"; };
-		00BFDA6D1BDAC465002DEF0E /* PW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PW.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		00BFDA701BDAC466002DEF0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00BFDA721BDAC466002DEF0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		00BFDA741BDAC466002DEF0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00BFDA771BDAC466002DEF0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		00BFDA791BDAC466002DEF0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00BFDA7E1BDAC466002DEF0E /* PWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00BFDA821BDAC466002DEF0E /* PWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWTests.swift; sourceTree = "<group>"; };
-		00BFDA841BDAC466002DEF0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00BFDA891BDAC466002DEF0E /* PWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00BFDA8D1BDAC466002DEF0E /* PWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWUITests.swift; sourceTree = "<group>"; };
-		00BFDA8F1BDAC466002DEF0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C8D5279561887356609B016 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		484099D9B73895B9A41D2BFF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		CE7F0BCE2DEF76D017ED4A3A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		14CA57D8414748BD3ACD67FD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		1ED69FAC1C8A336F0057B1E1 /* PW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED69FAF1C8A336F0057B1E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ED69FB11C8A336F0057B1E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1ED69FB31C8A336F0057B1E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ED69FB61C8A33700057B1E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ED69FB81C8A33700057B1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ED69FBD1C8A33700057B1E1 /* PWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED69FC11C8A33700057B1E1 /* PWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWTests.swift; sourceTree = "<group>"; };
+		1ED69FC31C8A33700057B1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ED69FC81C8A33700057B1E1 /* PWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED69FCC1C8A33700057B1E1 /* PWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWUITests.swift; sourceTree = "<group>"; };
+		1ED69FCE1C8A33700057B1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ED69FDA1C8A34810057B1E1 /* PW.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PW.entitlements; sourceTree = "<group>"; };
+		4595EB77B32E27E5AFC1E10F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		65F9474E827CFF5E9A89EB23 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00BFDA6A1BDAC465002DEF0E /* Frameworks */ = {
+		1ED69FA91C8A336F0057B1E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0EA725F7F8EE8F11BC5245E /* Pods.framework in Frameworks */,
+				7BC5D4921E96C52DD5BE0CDD /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00BFDA7B1BDAC466002DEF0E /* Frameworks */ = {
-=======
-		0036C7621BE181A3001341B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036C7611BE181A3001341B3 /* AppDelegate.swift */; };
-		0036C7641BE181A3001341B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036C7631BE181A3001341B3 /* ViewController.swift */; };
-		0036C7661BE181A3001341B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0036C7651BE181A3001341B3 /* Assets.xcassets */; };
-		0036C7691BE181A3001341B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0036C7671BE181A3001341B3 /* Main.storyboard */; };
-		0036C7741BE181A3001341B3 /* PWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036C7731BE181A3001341B3 /* PWTests.swift */; };
-		0036C77F1BE181A3001341B3 /* PWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036C77E1BE181A3001341B3 /* PWUITests.swift */; };
-		0036C79F1BE18303001341B3 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0036C7951BE18282001341B3 /* CryptoSwift.framework */; };
-		0036C7A01BE18303001341B3 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0036C7951BE18282001341B3 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0036C7701BE181A3001341B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0036C7561BE181A3001341B3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0036C75D1BE181A3001341B3;
-			remoteInfo = PW;
-		};
-		0036C77B1BE181A3001341B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0036C7561BE181A3001341B3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0036C75D1BE181A3001341B3;
-			remoteInfo = PW;
-		};
-		0036C7941BE18282001341B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 754BE45519693E190098E6F3;
-			remoteInfo = "CryptoSwift iOS";
-		};
-		0036C7961BE18282001341B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5596BDBB1BC8F220007E38D5;
-			remoteInfo = "CryptoSwift watchOS";
-		};
-		0036C7981BE18282001341B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 75D614BF1BD844F2001358B2;
-			remoteInfo = "CryptoSwift tvOS";
-		};
-		0036C79A1BE18282001341B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 75DF77721BC8EB59006E9520;
-			remoteInfo = "CryptoSwift OSX";
-		};
-		0036C79C1BE18282001341B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 754BE46019693E190098E6F3;
-			remoteInfo = CryptoSwiftTests;
-		};
-		0036C7A11BE18303001341B3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 754BE45419693E190098E6F3;
-			remoteInfo = "CryptoSwift iOS";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		0036C7A31BE18303001341B3 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				0036C7A01BE18303001341B3 /* CryptoSwift.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
-/* Begin PBXFileReference section */
-		0036C75E1BE181A3001341B3 /* PW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PW.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0036C7611BE181A3001341B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0036C7631BE181A3001341B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0036C7651BE181A3001341B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0036C7681BE181A3001341B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0036C76A1BE181A3001341B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0036C76F1BE181A3001341B3 /* PWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0036C7731BE181A3001341B3 /* PWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWTests.swift; sourceTree = "<group>"; };
-		0036C7751BE181A3001341B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0036C77A1BE181A3001341B3 /* PWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0036C77E1BE181A3001341B3 /* PWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWUITests.swift; sourceTree = "<group>"; };
-		0036C7801BE181A3001341B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = CryptoSwift/CryptoSwift.xcodeproj; sourceTree = "<group>"; };
-		0036C79E1BE182C0001341B3 /* PW.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PW.entitlements; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		0036C75B1BE181A3001341B3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0036C79F1BE18303001341B3 /* CryptoSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0036C76C1BE181A3001341B3 /* Frameworks */ = {
->>>>>>> master
+		1ED69FBA1C8A33700057B1E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-<<<<<<< HEAD
-		00BFDA861BDAC466002DEF0E /* Frameworks */ = {
-=======
-		0036C7771BE181A3001341B3 /* Frameworks */ = {
->>>>>>> master
+		1ED69FC51C8A33700057B1E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,271 +78,147 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-<<<<<<< HEAD
-		00BFDA641BDAC465002DEF0E = {
+		1ED69FA31C8A336F0057B1E1 = {
 			isa = PBXGroup;
 			children = (
-				00BFDA6F1BDAC465002DEF0E /* PW */,
-				00BFDA811BDAC466002DEF0E /* PWTests */,
-				00BFDA8C1BDAC466002DEF0E /* PWUITests */,
-				00BFDA6E1BDAC465002DEF0E /* Products */,
-				80EA27AA84906B96C0A38996 /* Pods */,
-				60E1ED69A60CEE0566FB8348 /* Frameworks */,
+				1ED69FAE1C8A336F0057B1E1 /* PW */,
+				1ED69FC01C8A33700057B1E1 /* PWTests */,
+				1ED69FCB1C8A33700057B1E1 /* PWUITests */,
+				1ED69FAD1C8A336F0057B1E1 /* Products */,
+				B8E2B52880F3337F340FA575 /* Pods */,
+				C6D0BBCB51034B19D98AAFA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		00BFDA6E1BDAC465002DEF0E /* Products */ = {
+		1ED69FAD1C8A336F0057B1E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00BFDA6D1BDAC465002DEF0E /* PW.app */,
-				00BFDA7E1BDAC466002DEF0E /* PWTests.xctest */,
-				00BFDA891BDAC466002DEF0E /* PWUITests.xctest */,
-=======
-		0036C7551BE181A3001341B3 = {
-			isa = PBXGroup;
-			children = (
-				0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */,
-				0036C7601BE181A3001341B3 /* PW */,
-				0036C7721BE181A3001341B3 /* PWTests */,
-				0036C77D1BE181A3001341B3 /* PWUITests */,
-				0036C75F1BE181A3001341B3 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		0036C75F1BE181A3001341B3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0036C75E1BE181A3001341B3 /* PW.app */,
-				0036C76F1BE181A3001341B3 /* PWTests.xctest */,
-				0036C77A1BE181A3001341B3 /* PWUITests.xctest */,
->>>>>>> master
+				1ED69FAC1C8A336F0057B1E1 /* PW.app */,
+				1ED69FBD1C8A33700057B1E1 /* PWTests.xctest */,
+				1ED69FC81C8A33700057B1E1 /* PWUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-		00BFDA6F1BDAC465002DEF0E /* PW */ = {
+		1ED69FAE1C8A336F0057B1E1 /* PW */ = {
 			isa = PBXGroup;
 			children = (
-				0043764E1BDEE9CC00ED2287 /* PW.entitlements */,
-				00BFDA701BDAC466002DEF0E /* AppDelegate.swift */,
-				00BFDA721BDAC466002DEF0E /* ViewController.swift */,
-				00BFDA741BDAC466002DEF0E /* Assets.xcassets */,
-				00BFDA761BDAC466002DEF0E /* Main.storyboard */,
-				00BFDA791BDAC466002DEF0E /* Info.plist */,
-=======
-		0036C7601BE181A3001341B3 /* PW */ = {
-			isa = PBXGroup;
-			children = (
-				0036C79E1BE182C0001341B3 /* PW.entitlements */,
-				0036C7611BE181A3001341B3 /* AppDelegate.swift */,
-				0036C7631BE181A3001341B3 /* ViewController.swift */,
-				0036C7651BE181A3001341B3 /* Assets.xcassets */,
-				0036C7671BE181A3001341B3 /* Main.storyboard */,
-				0036C76A1BE181A3001341B3 /* Info.plist */,
->>>>>>> master
+				1ED69FDA1C8A34810057B1E1 /* PW.entitlements */,
+				1ED69FAF1C8A336F0057B1E1 /* AppDelegate.swift */,
+				1ED69FB11C8A336F0057B1E1 /* ViewController.swift */,
+				1ED69FB31C8A336F0057B1E1 /* Assets.xcassets */,
+				1ED69FB51C8A33700057B1E1 /* Main.storyboard */,
+				1ED69FB81C8A33700057B1E1 /* Info.plist */,
 			);
 			path = PW;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-		00BFDA811BDAC466002DEF0E /* PWTests */ = {
+		1ED69FC01C8A33700057B1E1 /* PWTests */ = {
 			isa = PBXGroup;
 			children = (
-				00BFDA821BDAC466002DEF0E /* PWTests.swift */,
-				00BFDA841BDAC466002DEF0E /* Info.plist */,
-=======
-		0036C7721BE181A3001341B3 /* PWTests */ = {
-			isa = PBXGroup;
-			children = (
-				0036C7731BE181A3001341B3 /* PWTests.swift */,
-				0036C7751BE181A3001341B3 /* Info.plist */,
->>>>>>> master
+				1ED69FC11C8A33700057B1E1 /* PWTests.swift */,
+				1ED69FC31C8A33700057B1E1 /* Info.plist */,
 			);
 			path = PWTests;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-		00BFDA8C1BDAC466002DEF0E /* PWUITests */ = {
+		1ED69FCB1C8A33700057B1E1 /* PWUITests */ = {
 			isa = PBXGroup;
 			children = (
-				00BFDA8D1BDAC466002DEF0E /* PWUITests.swift */,
-				00BFDA8F1BDAC466002DEF0E /* Info.plist */,
-=======
-		0036C77D1BE181A3001341B3 /* PWUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0036C77E1BE181A3001341B3 /* PWUITests.swift */,
-				0036C7801BE181A3001341B3 /* Info.plist */,
->>>>>>> master
+				1ED69FCC1C8A33700057B1E1 /* PWUITests.swift */,
+				1ED69FCE1C8A33700057B1E1 /* Info.plist */,
 			);
 			path = PWUITests;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-		60E1ED69A60CEE0566FB8348 /* Frameworks */ = {
+		B8E2B52880F3337F340FA575 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3C8D5279561887356609B016 /* Pods.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		80EA27AA84906B96C0A38996 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CE7F0BCE2DEF76D017ED4A3A /* Pods.debug.xcconfig */,
-				484099D9B73895B9A41D2BFF /* Pods.release.xcconfig */,
+				4595EB77B32E27E5AFC1E10F /* Pods.debug.xcconfig */,
+				14CA57D8414748BD3ACD67FD /* Pods.release.xcconfig */,
 			);
 			name = Pods;
-=======
-		0036C78D1BE18281001341B3 /* Products */ = {
+			sourceTree = "<group>";
+		};
+		C6D0BBCB51034B19D98AAFA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0036C7951BE18282001341B3 /* CryptoSwift.framework */,
-				0036C7971BE18282001341B3 /* CryptoSwift.framework */,
-				0036C7991BE18282001341B3 /* CryptoSwift.framework */,
-				0036C79B1BE18282001341B3 /* CryptoSwift.framework */,
-				0036C79D1BE18282001341B3 /* CryptoSwiftTests.xctest */,
+				65F9474E827CFF5E9A89EB23 /* Pods.framework */,
 			);
-			name = Products;
->>>>>>> master
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-<<<<<<< HEAD
-		00BFDA6C1BDAC465002DEF0E /* PW */ = {
+		1ED69FAB1C8A336F0057B1E1 /* PW */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00BFDA921BDAC466002DEF0E /* Build configuration list for PBXNativeTarget "PW" */;
+			buildConfigurationList = 1ED69FD11C8A33700057B1E1 /* Build configuration list for PBXNativeTarget "PW" */;
 			buildPhases = (
-				84448B034D4FE329E54F13FE /* Check Pods Manifest.lock */,
-				00BFDA691BDAC465002DEF0E /* Sources */,
-				00BFDA6A1BDAC465002DEF0E /* Frameworks */,
-				00BFDA6B1BDAC465002DEF0E /* Resources */,
-				9F45C01ED457B114A2FD77A3 /* Embed Pods Frameworks */,
-				C8D5B30A0AC6EA088F87607F /* Copy Pods Resources */,
-=======
-		0036C75D1BE181A3001341B3 /* PW */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0036C7831BE181A3001341B3 /* Build configuration list for PBXNativeTarget "PW" */;
-			buildPhases = (
-				0036C75A1BE181A3001341B3 /* Sources */,
-				0036C75B1BE181A3001341B3 /* Frameworks */,
-				0036C75C1BE181A3001341B3 /* Resources */,
-				0036C7A31BE18303001341B3 /* Embed Frameworks */,
->>>>>>> master
+				F20C836B004E6488ECB8AF48 /* Check Pods Manifest.lock */,
+				1ED69FA81C8A336F0057B1E1 /* Sources */,
+				1ED69FA91C8A336F0057B1E1 /* Frameworks */,
+				1ED69FAA1C8A336F0057B1E1 /* Resources */,
+				6F19FE830773569584C6D57C /* Embed Pods Frameworks */,
+				F2D42354BCEC096F2B6F39FB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-<<<<<<< HEAD
 			);
 			name = PW;
 			productName = PW;
-			productReference = 00BFDA6D1BDAC465002DEF0E /* PW.app */;
+			productReference = 1ED69FAC1C8A336F0057B1E1 /* PW.app */;
 			productType = "com.apple.product-type.application";
 		};
-		00BFDA7D1BDAC466002DEF0E /* PWTests */ = {
+		1ED69FBC1C8A33700057B1E1 /* PWTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00BFDA951BDAC466002DEF0E /* Build configuration list for PBXNativeTarget "PWTests" */;
+			buildConfigurationList = 1ED69FD41C8A33700057B1E1 /* Build configuration list for PBXNativeTarget "PWTests" */;
 			buildPhases = (
-				00BFDA7A1BDAC466002DEF0E /* Sources */,
-				00BFDA7B1BDAC466002DEF0E /* Frameworks */,
-				00BFDA7C1BDAC466002DEF0E /* Resources */,
-=======
-				0036C7A21BE18303001341B3 /* PBXTargetDependency */,
-			);
-			name = PW;
-			productName = PW;
-			productReference = 0036C75E1BE181A3001341B3 /* PW.app */;
-			productType = "com.apple.product-type.application";
-		};
-		0036C76E1BE181A3001341B3 /* PWTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0036C7861BE181A3001341B3 /* Build configuration list for PBXNativeTarget "PWTests" */;
-			buildPhases = (
-				0036C76B1BE181A3001341B3 /* Sources */,
-				0036C76C1BE181A3001341B3 /* Frameworks */,
-				0036C76D1BE181A3001341B3 /* Resources */,
->>>>>>> master
+				1ED69FB91C8A33700057B1E1 /* Sources */,
+				1ED69FBA1C8A33700057B1E1 /* Frameworks */,
+				1ED69FBB1C8A33700057B1E1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-<<<<<<< HEAD
-				00BFDA801BDAC466002DEF0E /* PBXTargetDependency */,
+				1ED69FBF1C8A33700057B1E1 /* PBXTargetDependency */,
 			);
 			name = PWTests;
 			productName = PWTests;
-			productReference = 00BFDA7E1BDAC466002DEF0E /* PWTests.xctest */;
+			productReference = 1ED69FBD1C8A33700057B1E1 /* PWTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		00BFDA881BDAC466002DEF0E /* PWUITests */ = {
+		1ED69FC71C8A33700057B1E1 /* PWUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00BFDA981BDAC466002DEF0E /* Build configuration list for PBXNativeTarget "PWUITests" */;
+			buildConfigurationList = 1ED69FD71C8A33700057B1E1 /* Build configuration list for PBXNativeTarget "PWUITests" */;
 			buildPhases = (
-				00BFDA851BDAC466002DEF0E /* Sources */,
-				00BFDA861BDAC466002DEF0E /* Frameworks */,
-				00BFDA871BDAC466002DEF0E /* Resources */,
-=======
-				0036C7711BE181A3001341B3 /* PBXTargetDependency */,
-			);
-			name = PWTests;
-			productName = PWTests;
-			productReference = 0036C76F1BE181A3001341B3 /* PWTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0036C7791BE181A3001341B3 /* PWUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0036C7891BE181A3001341B3 /* Build configuration list for PBXNativeTarget "PWUITests" */;
-			buildPhases = (
-				0036C7761BE181A3001341B3 /* Sources */,
-				0036C7771BE181A3001341B3 /* Frameworks */,
-				0036C7781BE181A3001341B3 /* Resources */,
->>>>>>> master
+				1ED69FC41C8A33700057B1E1 /* Sources */,
+				1ED69FC51C8A33700057B1E1 /* Frameworks */,
+				1ED69FC61C8A33700057B1E1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-<<<<<<< HEAD
-				00BFDA8B1BDAC466002DEF0E /* PBXTargetDependency */,
+				1ED69FCA1C8A33700057B1E1 /* PBXTargetDependency */,
 			);
 			name = PWUITests;
 			productName = PWUITests;
-			productReference = 00BFDA891BDAC466002DEF0E /* PWUITests.xctest */;
-=======
-				0036C77C1BE181A3001341B3 /* PBXTargetDependency */,
-			);
-			name = PWUITests;
-			productName = PWUITests;
-			productReference = 0036C77A1BE181A3001341B3 /* PWUITests.xctest */;
->>>>>>> master
+			productReference = 1ED69FC81C8A33700057B1E1 /* PWUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-<<<<<<< HEAD
-		00BFDA651BDAC465002DEF0E /* Project object */ = {
+		1ED69FA41C8A336F0057B1E1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = io.pwapp;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hugh;
 				TargetAttributes = {
-					00BFDA6C1BDAC465002DEF0E = {
-=======
-		0036C7561BE181A3001341B3 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = io.pwapp;
-				TargetAttributes = {
-					0036C75D1BE181A3001341B3 = {
->>>>>>> master
-						CreatedOnToolsVersion = 7.0.1;
+					1ED69FAB1C8A336F0057B1E1 = {
+						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = LZF4KQM3HY;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
@@ -467,31 +226,17 @@
 							};
 						};
 					};
-<<<<<<< HEAD
-					00BFDA7D1BDAC466002DEF0E = {
-						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = 00BFDA6C1BDAC465002DEF0E;
+					1ED69FBC1C8A33700057B1E1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1ED69FAB1C8A336F0057B1E1;
 					};
-					00BFDA881BDAC466002DEF0E = {
-						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = 00BFDA6C1BDAC465002DEF0E;
-					};
-				};
-			};
-			buildConfigurationList = 00BFDA681BDAC465002DEF0E /* Build configuration list for PBXProject "PW" */;
-=======
-					0036C76E1BE181A3001341B3 = {
-						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = 0036C75D1BE181A3001341B3;
-					};
-					0036C7791BE181A3001341B3 = {
-						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = 0036C75D1BE181A3001341B3;
+					1ED69FC71C8A33700057B1E1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1ED69FAB1C8A336F0057B1E1;
 					};
 				};
 			};
-			buildConfigurationList = 0036C7591BE181A3001341B3 /* Build configuration list for PBXProject "PW" */;
->>>>>>> master
+			buildConfigurationList = 1ED69FA71C8A336F0057B1E1 /* Build configuration list for PBXProject "PW" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -499,109 +244,36 @@
 				en,
 				Base,
 			);
-<<<<<<< HEAD
-			mainGroup = 00BFDA641BDAC465002DEF0E;
-			productRefGroup = 00BFDA6E1BDAC465002DEF0E /* Products */;
+			mainGroup = 1ED69FA31C8A336F0057B1E1;
+			productRefGroup = 1ED69FAD1C8A336F0057B1E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00BFDA6C1BDAC465002DEF0E /* PW */,
-				00BFDA7D1BDAC466002DEF0E /* PWTests */,
-				00BFDA881BDAC466002DEF0E /* PWUITests */,
-=======
-			mainGroup = 0036C7551BE181A3001341B3;
-			productRefGroup = 0036C75F1BE181A3001341B3 /* Products */;
-			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 0036C78D1BE18281001341B3 /* Products */;
-					ProjectRef = 0036C78C1BE18281001341B3 /* CryptoSwift.xcodeproj */;
-				},
-			);
-			projectRoot = "";
-			targets = (
-				0036C75D1BE181A3001341B3 /* PW */,
-				0036C76E1BE181A3001341B3 /* PWTests */,
-				0036C7791BE181A3001341B3 /* PWUITests */,
->>>>>>> master
+				1ED69FAB1C8A336F0057B1E1 /* PW */,
+				1ED69FBC1C8A33700057B1E1 /* PWTests */,
+				1ED69FC71C8A33700057B1E1 /* PWUITests */,
 			);
 		};
 /* End PBXProject section */
 
-<<<<<<< HEAD
 /* Begin PBXResourcesBuildPhase section */
-		00BFDA6B1BDAC465002DEF0E /* Resources */ = {
+		1ED69FAA1C8A336F0057B1E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00BFDA751BDAC466002DEF0E /* Assets.xcassets in Resources */,
-				00BFDA781BDAC466002DEF0E /* Main.storyboard in Resources */,
+				1ED69FB41C8A336F0057B1E1 /* Assets.xcassets in Resources */,
+				1ED69FB71C8A33700057B1E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00BFDA7C1BDAC466002DEF0E /* Resources */ = {
-=======
-/* Begin PBXReferenceProxy section */
-		0036C7951BE18282001341B3 /* CryptoSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CryptoSwift.framework;
-			remoteRef = 0036C7941BE18282001341B3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0036C7971BE18282001341B3 /* CryptoSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CryptoSwift.framework;
-			remoteRef = 0036C7961BE18282001341B3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0036C7991BE18282001341B3 /* CryptoSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CryptoSwift.framework;
-			remoteRef = 0036C7981BE18282001341B3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0036C79B1BE18282001341B3 /* CryptoSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CryptoSwift.framework;
-			remoteRef = 0036C79A1BE18282001341B3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0036C79D1BE18282001341B3 /* CryptoSwiftTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CryptoSwiftTests.xctest;
-			remoteRef = 0036C79C1BE18282001341B3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
-/* Begin PBXResourcesBuildPhase section */
-		0036C75C1BE181A3001341B3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0036C7661BE181A3001341B3 /* Assets.xcassets in Resources */,
-				0036C7691BE181A3001341B3 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0036C76D1BE181A3001341B3 /* Resources */ = {
->>>>>>> master
+		1ED69FBB1C8A33700057B1E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-<<<<<<< HEAD
-		00BFDA871BDAC466002DEF0E /* Resources */ = {
-=======
-		0036C7781BE181A3001341B3 /* Resources */ = {
->>>>>>> master
+		1ED69FC61C8A33700057B1E1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -610,24 +282,8 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-<<<<<<< HEAD
 /* Begin PBXShellScriptBuildPhase section */
-		84448B034D4FE329E54F13FE /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9F45C01ED457B114A2FD77A3 /* Embed Pods Frameworks */ = {
+		6F19FE830773569584C6D57C /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -642,7 +298,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C8D5B30A0AC6EA088F87607F /* Copy Pods Resources */ = {
+		F20C836B004E6488ECB8AF48 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2D42354BCEC096F2B6F39FB /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -660,100 +331,51 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00BFDA691BDAC465002DEF0E /* Sources */ = {
+		1ED69FA81C8A336F0057B1E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00BFDA731BDAC466002DEF0E /* ViewController.swift in Sources */,
-				00BFDA711BDAC466002DEF0E /* AppDelegate.swift in Sources */,
+				1ED69FB21C8A336F0057B1E1 /* ViewController.swift in Sources */,
+				1ED69FB01C8A336F0057B1E1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00BFDA7A1BDAC466002DEF0E /* Sources */ = {
+		1ED69FB91C8A33700057B1E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00BFDA831BDAC466002DEF0E /* PWTests.swift in Sources */,
+				1ED69FC21C8A33700057B1E1 /* PWTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00BFDA851BDAC466002DEF0E /* Sources */ = {
+		1ED69FC41C8A33700057B1E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00BFDA8E1BDAC466002DEF0E /* PWUITests.swift in Sources */,
-=======
-/* Begin PBXSourcesBuildPhase section */
-		0036C75A1BE181A3001341B3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0036C7641BE181A3001341B3 /* ViewController.swift in Sources */,
-				0036C7621BE181A3001341B3 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0036C76B1BE181A3001341B3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0036C7741BE181A3001341B3 /* PWTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0036C7761BE181A3001341B3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0036C77F1BE181A3001341B3 /* PWUITests.swift in Sources */,
->>>>>>> master
+				1ED69FCD1C8A33700057B1E1 /* PWUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-<<<<<<< HEAD
-		00BFDA801BDAC466002DEF0E /* PBXTargetDependency */ = {
+		1ED69FBF1C8A33700057B1E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 00BFDA6C1BDAC465002DEF0E /* PW */;
-			targetProxy = 00BFDA7F1BDAC466002DEF0E /* PBXContainerItemProxy */;
+			target = 1ED69FAB1C8A336F0057B1E1 /* PW */;
+			targetProxy = 1ED69FBE1C8A33700057B1E1 /* PBXContainerItemProxy */;
 		};
-		00BFDA8B1BDAC466002DEF0E /* PBXTargetDependency */ = {
+		1ED69FCA1C8A33700057B1E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 00BFDA6C1BDAC465002DEF0E /* PW */;
-			targetProxy = 00BFDA8A1BDAC466002DEF0E /* PBXContainerItemProxy */;
-=======
-		0036C7711BE181A3001341B3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0036C75D1BE181A3001341B3 /* PW */;
-			targetProxy = 0036C7701BE181A3001341B3 /* PBXContainerItemProxy */;
-		};
-		0036C77C1BE181A3001341B3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0036C75D1BE181A3001341B3 /* PW */;
-			targetProxy = 0036C77B1BE181A3001341B3 /* PBXContainerItemProxy */;
-		};
-		0036C7A21BE18303001341B3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "CryptoSwift iOS";
-			targetProxy = 0036C7A11BE18303001341B3 /* PBXContainerItemProxy */;
->>>>>>> master
+			target = 1ED69FAB1C8A336F0057B1E1 /* PW */;
+			targetProxy = 1ED69FC91C8A33700057B1E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-<<<<<<< HEAD
-		00BFDA761BDAC466002DEF0E /* Main.storyboard */ = {
+		1ED69FB51C8A33700057B1E1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				00BFDA771BDAC466002DEF0E /* Base */,
-=======
-		0036C7671BE181A3001341B3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0036C7681BE181A3001341B3 /* Base */,
->>>>>>> master
+				1ED69FB61C8A33700057B1E1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -761,11 +383,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-<<<<<<< HEAD
-		00BFDA901BDAC466002DEF0E /* Debug */ = {
-=======
-		0036C7811BE181A3001341B3 /* Debug */ = {
->>>>>>> master
+		1ED69FCF1C8A33700057B1E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -801,23 +419,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-<<<<<<< HEAD
-				SDKROOT = macosx10.11;
-=======
 				SDKROOT = macosx;
->>>>>>> master
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-<<<<<<< HEAD
-		00BFDA911BDAC466002DEF0E /* Release */ = {
-=======
-		0036C7821BE181A3001341B3 /* Release */ = {
->>>>>>> master
+		1ED69FD01C8A33700057B1E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -847,148 +457,94 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
-<<<<<<< HEAD
-				SDKROOT = macosx10.11;
-			};
-			name = Release;
-		};
-		00BFDA931BDAC466002DEF0E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE7F0BCE2DEF76D017ED4A3A /* Pods.debug.xcconfig */;
-=======
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		0036C7841BE181A3001341B3 /* Debug */ = {
+		1ED69FD21C8A33700057B1E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
->>>>>>> master
+			baseConfigurationReference = 4595EB77B32E27E5AFC1E10F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PW/PW.entitlements;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-<<<<<<< HEAD
 				INFOPLIST_FILE = PW/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-=======
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				INFOPLIST_FILE = PW/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
->>>>>>> master
 				PRODUCT_BUNDLE_IDENTIFIER = io.pwapp.pwdesktop.PW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
-<<<<<<< HEAD
-		00BFDA941BDAC466002DEF0E /* Release */ = {
+		1ED69FD31C8A33700057B1E1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 484099D9B73895B9A41D2BFF /* Pods.release.xcconfig */;
-=======
-		0036C7851BE181A3001341B3 /* Release */ = {
-			isa = XCBuildConfiguration;
->>>>>>> master
+			baseConfigurationReference = 14CA57D8414748BD3ACD67FD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = PW/PW.entitlements;
 				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-<<<<<<< HEAD
 				INFOPLIST_FILE = PW/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-=======
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				INFOPLIST_FILE = PW/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
->>>>>>> master
 				PRODUCT_BUNDLE_IDENTIFIER = io.pwapp.pwdesktop.PW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
-<<<<<<< HEAD
-		00BFDA961BDAC466002DEF0E /* Debug */ = {
-=======
-		0036C7871BE181A3001341B3 /* Debug */ = {
->>>>>>> master
+		1ED69FD51C8A33700057B1E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PWTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = io.pwapp.pwdesktop.PWTests;
-=======
-				PRODUCT_BUNDLE_IDENTIFIER = io.pwapp.PWTests;
->>>>>>> master
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PW.app/Contents/MacOS/PW";
 			};
 			name = Debug;
 		};
-<<<<<<< HEAD
-		00BFDA971BDAC466002DEF0E /* Release */ = {
-=======
-		0036C7881BE181A3001341B3 /* Release */ = {
->>>>>>> master
+		1ED69FD61C8A33700057B1E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PWTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = io.pwapp.pwdesktop.PWTests;
-=======
-				PRODUCT_BUNDLE_IDENTIFIER = io.pwapp.PWTests;
->>>>>>> master
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PW.app/Contents/MacOS/PW";
 			};
 			name = Release;
 		};
-<<<<<<< HEAD
-		00BFDA991BDAC466002DEF0E /* Debug */ = {
-=======
-		0036C78A1BE181A3001341B3 /* Debug */ = {
->>>>>>> master
+		1ED69FD81C8A33700057B1E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PWUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = io.pwapp.pwdesktop.PWUITests;
-=======
-				PRODUCT_BUNDLE_IDENTIFIER = io.pwapp.PWUITests;
->>>>>>> master
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = PW;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
 		};
-<<<<<<< HEAD
-		00BFDA9A1BDAC466002DEF0E /* Release */ = {
-=======
-		0036C78B1BE181A3001341B3 /* Release */ = {
->>>>>>> master
+		1ED69FD91C8A33700057B1E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = PWUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = io.pwapp.pwdesktop.PWUITests;
-=======
-				PRODUCT_BUNDLE_IDENTIFIER = io.pwapp.PWUITests;
->>>>>>> master
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = PW;
 				USES_XCTRUNNER = YES;
@@ -998,79 +554,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-<<<<<<< HEAD
-		00BFDA681BDAC465002DEF0E /* Build configuration list for PBXProject "PW" */ = {
+		1ED69FA71C8A336F0057B1E1 /* Build configuration list for PBXProject "PW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00BFDA901BDAC466002DEF0E /* Debug */,
-				00BFDA911BDAC466002DEF0E /* Release */,
-=======
-		0036C7591BE181A3001341B3 /* Build configuration list for PBXProject "PW" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0036C7811BE181A3001341B3 /* Debug */,
-				0036C7821BE181A3001341B3 /* Release */,
->>>>>>> master
+				1ED69FCF1C8A33700057B1E1 /* Debug */,
+				1ED69FD01C8A33700057B1E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-<<<<<<< HEAD
-		00BFDA921BDAC466002DEF0E /* Build configuration list for PBXNativeTarget "PW" */ = {
+		1ED69FD11C8A33700057B1E1 /* Build configuration list for PBXNativeTarget "PW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00BFDA931BDAC466002DEF0E /* Debug */,
-				00BFDA941BDAC466002DEF0E /* Release */,
-=======
-		0036C7831BE181A3001341B3 /* Build configuration list for PBXNativeTarget "PW" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0036C7841BE181A3001341B3 /* Debug */,
-				0036C7851BE181A3001341B3 /* Release */,
->>>>>>> master
+				1ED69FD21C8A33700057B1E1 /* Debug */,
+				1ED69FD31C8A33700057B1E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-<<<<<<< HEAD
-		00BFDA951BDAC466002DEF0E /* Build configuration list for PBXNativeTarget "PWTests" */ = {
+		1ED69FD41C8A33700057B1E1 /* Build configuration list for PBXNativeTarget "PWTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00BFDA961BDAC466002DEF0E /* Debug */,
-				00BFDA971BDAC466002DEF0E /* Release */,
-=======
-		0036C7861BE181A3001341B3 /* Build configuration list for PBXNativeTarget "PWTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0036C7871BE181A3001341B3 /* Debug */,
-				0036C7881BE181A3001341B3 /* Release */,
->>>>>>> master
+				1ED69FD51C8A33700057B1E1 /* Debug */,
+				1ED69FD61C8A33700057B1E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-<<<<<<< HEAD
-		00BFDA981BDAC466002DEF0E /* Build configuration list for PBXNativeTarget "PWUITests" */ = {
+		1ED69FD71C8A33700057B1E1 /* Build configuration list for PBXNativeTarget "PWUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00BFDA991BDAC466002DEF0E /* Debug */,
-				00BFDA9A1BDAC466002DEF0E /* Release */,
-=======
-		0036C7891BE181A3001341B3 /* Build configuration list for PBXNativeTarget "PWUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0036C78A1BE181A3001341B3 /* Debug */,
-				0036C78B1BE181A3001341B3 /* Release */,
->>>>>>> master
+				1ED69FD81C8A33700057B1E1 /* Debug */,
+				1ED69FD91C8A33700057B1E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-<<<<<<< HEAD
-	rootObject = 00BFDA651BDAC465002DEF0E /* Project object */;
-=======
-	rootObject = 0036C7561BE181A3001341B3 /* Project object */;
->>>>>>> master
+	rootObject = 1ED69FA41C8A336F0057B1E1 /* Project object */;
 }

@@ -2,12 +2,8 @@
 //  PWTests.swift
 //  PWTests
 //
-<<<<<<< HEAD
-//  Created by Hugh Hopkins on 23/10/2015.
-=======
-//  Created by Hugh Hopkins on 28/10/2015.
->>>>>>> master
-//  Copyright © 2015 io.pwapp. All rights reserved.
+//  Created by hugh on 04/03/2016.
+//  Copyright © 2016 hugh. All rights reserved.
 //
 
 import XCTest
