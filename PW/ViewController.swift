@@ -11,7 +11,7 @@ import CryptoSwift
 
 class ViewController: NSViewController {
     
-    var timer = NSTimer.init()
+    var timer = Timer.init()
 
     @IBOutlet weak var pwOutput: NSTextField!
     
@@ -19,12 +19,12 @@ class ViewController: NSViewController {
         super.viewDidLoad()
         
         super.viewDidLoad()
-        timer = NSTimer.scheduledTimerWithTimeInterval(0.2, target: self, selector: "autoUpdate", userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: Selector(("autoUpdate")), userInfo: nil, repeats: true)
 
         // Do any additional setup after loading the view.
     }
 
-    override var representedObject: AnyObject? {
+    override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.
         }
@@ -48,27 +48,27 @@ class ViewController: NSViewController {
     func autoUpdate() {
         var srv: String = serviceInput.stringValue
         var pass: String = passwordInput.stringValue
-        var srvLower = srv.lowercaseString
+        var srvLower = srv.lowercased()
         var pw = "\(srvLower)" + "||" + "\(pass)" + "||"
         var pwHash = pw.sha1()
         var pwString = String(pwHash)
-        var pwLowered = pwString.lowercaseString
+        var pwLowered = pwString.lowercased()
         var index = 0
         
         func updateTwo() {
-            for string in pwLowered.characters {
+            for string in pwLowered {
                 let s = "\(string)"
                 if index%2 == 0 {
-                    pwNew += s.uppercaseString
+                    pwNew += s.uppercased()
                 } else {
                     pwNew += s
                 }
-                index++;
+                index += 1
             }
             pwOutput.stringValue = pwNew
-            let pasteboard = NSPasteboard.generalPasteboard()
+            let pasteboard = NSPasteboard.general
             pasteboard.clearContents()
-            pasteboard.setString(pwOutput.stringValue, forType: NSPasteboardTypeString)
+            pasteboard.setString(pwOutput.stringValue, forType: NSPasteboard.PasteboardType.string)
         }
         updateTwo()
         
